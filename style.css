@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.menu{
+    max-width: 100%;
+    margin: 0 auto;
+    
+
+}
+.menuNavegacao{
+    display: flex;
+    justify-content: space-between;
+}
+.botaoProdutos{
+    height: 40px;
+    width: 150px;
+    background-color: #0A99FE 10%;
+    color: #0A99FE;
+    border-radius: 5px;
+    border: #0A99FE;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+}
+.botaoProdutos:hover{
+    height: 40px;
+    width: 150px;
+    background-color: #0A99FE;
+    opacity: 0.9;
+    color: white;
+    border-radius: 5px;
+    border: #0A99FE;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px;
+}
+.TitulosPaintings{
+    color: #1B1B1B;
+    margin: 70px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.TitulosActionFigures{
+    color: #1B1B1B;
+    margin: 70px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 400;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.listaPainting{
+    display: flex;
+   
+}
+.listaActionFigures{
+    display: flex;
+   
+}
+.produtosActionFigures{
+    width: 207px;
+    height: 275px;
+    list-style-type: none;
+    margin: 10px;
+}
+.produtosPaintings{
+    width: 207px;
+    height: 275px;
+    list-style-type: none;
+    margin: 10px;
+}
+.img_produtos{
+    width: 207px;
+    height: 190px;
+}
+.descrição{
+   display: flex;
+    justify-content: center;
+    color: #1B1B1B;
+    font-size: 20px;
+    font-weight: 500;
+}
+.descriçãov{
+    display: flex;
+    justify-content: center;
+    color: #868383;
+    font-size: 16px;
+    font-weight: 400;
+}
+.secaoActionFigures{
+    overflow-x: auto;
+}
+.secaoPaintings{
+    overflow-x: auto;
+}
